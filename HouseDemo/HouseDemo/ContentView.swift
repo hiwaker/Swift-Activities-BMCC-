@@ -9,7 +9,7 @@ struct ContentView: View {
     }
 }
 
-// MARK: - Custom Triangle Shape
+// MARK: - Custom Triangle Shape to be used as the roof of our house
 struct Triangle: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
